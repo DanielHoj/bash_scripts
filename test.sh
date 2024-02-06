@@ -16,11 +16,8 @@ source venv/bin/activate
 # Upgrade pip to the latest version
 pip install --upgrade pip
 
-# Install necessary Python packages
-# pip install <package-name> # Uncomment and replace <package-name> with actual package names
-
 # Create a main.py file
 echo "print('Hello, World!')" > main.py
 echo "" > __init__.py
 
-echo "Setup is complete. Your Python environment is ready, and main.py has been created."
+echo "Setup is complete."
